@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -13,9 +14,8 @@ export class LoginComponent implements OnInit{
   ngOnInit(): void {
     this.sampleForm= new FormGroup(
       {
-        'name':new FormControl('',[Validators.required]),
         'email':new FormControl('',[Validators.required, Validators.email]),
-        'age':new FormControl('',[Validators.required,Validators.pattern('[0-9]+$')])
+        'password':new FormControl('',[Validators.required,Validators.minLength(8)])
       }
 
     );
@@ -24,6 +24,7 @@ export class LoginComponent implements OnInit{
   {
     console.log(this.sampleForm.value);
   }
+ 
   }
 
 

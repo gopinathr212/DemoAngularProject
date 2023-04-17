@@ -8,6 +8,6 @@ import { workshop } from '../workshopInterface';
 })
 export class WorkshopComponent {
 
-  @Input() workShop:workshop[] | undefined;
+  @Input() workShop!:workshop;
  
 }
