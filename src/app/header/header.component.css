@@ -1,0 +1,58 @@
+/* nav */
+.nav-left img{
+    width:130px;
+    height:30px;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+  }
+.banner .nav-left p{
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.banner .nav-right button{
+    border-color: rgb(109, 98, 98);
+    font-size: 12px;
+    border-radius: 10px;
+    color: rgb(163, 157, 157);
+    background-color: transparent;
+    border-style: solid;
+    padding: 0px 8px;
+}
+
+.banner .nav-right button:hover{
+    border-color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+.banner .nav-right i{
+ color:whitesmoke
+}
+
+.banner .nav-right img{
+    height: 30px;
+    width: 30px;
+   }
+
+
+
+.banner-img{
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+/* .workshopSec  .fa-desktop{
+    background-color:red;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+} */
