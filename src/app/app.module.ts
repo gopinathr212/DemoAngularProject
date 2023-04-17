@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { EventDetailsComponent } from './featured-events/event-details/event-details.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     WorkshopComponent,
     FooterComponent,
     LoginComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    EventDetailsComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,

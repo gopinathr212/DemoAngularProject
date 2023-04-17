@@ -1,0 +1,80 @@
+/* nav */
+.nav-left img{
+    width:130px;
+    height:30px;
+}
+.banner {
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+  }
+.banner .nav-left p{
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.banner .nav-right button{
+    border-color: rgb(109, 98, 98);
+    font-size: 12px;
+    border-radius: 10px;
+    color: rgb(163, 157, 157);
+    background-color: transparent;
+    border-style: solid;
+    padding: 0px 8px;
+}
+
+.banner .nav-right button:hover{
+    border-color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+.banner .nav-right i{
+ color:whitesmoke
+}
+
+.banner .nav-right img{
+    height: 30px;
+    width: 30px;
+   }
+
+
+
+/* .banner-img{
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 15px;
+} */
+
+.login{
+    color:whitesmoke;
+}
+
+.content img{
+    border-radius: 5px;
+}
+.content .card p{
+ font-weight: 600;
+ padding-left: 25px;
+ padding-top: 10px;
+}
+.content .card a{
+    background-color:rgb(221, 189, 213);
+    color:rgb(167, 81, 95);
+    font-size: 15px;
+ }
+ .card{
+    width:300px
+ }
+ .buy{
+    padding:0px 5px;
+    right:2px;
+
+ }
+ h5{
+    padding-top:20px;
+    text-decoration: underline;
+ }

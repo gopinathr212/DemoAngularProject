@@ -1,0 +1,52 @@
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: rgb(255, 251, 251);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.signUpBtn
+{
+    margin-left:90px
+}
+.loginBtn{
+    margin-left:130px
+}
+
+
+div img{
+    width:300px;
+    height:100px;
+    position: relative;
+    left: 450px
+}
+.signUp{
+    background-color: rgb(217, 234, 241);
+}
+.signUp p{
+    font-size: 10px;
+}

@@ -5,9 +5,9 @@
             <div class="card">
               <span class="cards-img">
                 <img src={{featuredEventValues.image}}>
-                <a class="bg-primary">{{featuredEventValues.category}}</a>
+                <a class="bg-primary category">{{featuredEventValues.category}}</a>
                 <button class="bg-primary">BUY</button>
-                <p class="cards-img-p">{{featuredEventValues.imageDes}}</p>
+                <a routerLink="/eventDetails" routerLinkActive="active" class="cards-img-p">{{featuredEventValues.imageDes}}</a>
               </span>
               <span class="text-left">
                 <p>{{featuredEventValues.commonStat1}}</p>
