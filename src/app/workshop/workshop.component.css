@@ -97,7 +97,6 @@
 .card:hover button
 {
     display: block;
-    cursor: pointer;
 }
 .cards-img {
     position: relative;
@@ -125,4 +124,8 @@
 
 .card:hover .cards-img img {
     transform: scale(1.2);
+}
+
+.card:hover{
+    cursor:pointer;
 }
